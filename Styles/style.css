@@ -7,3 +7,63 @@ body{
     font-family: "Azeret Mono", monospace;
 
 }
+
+/* ..........sheared style.... */
+.banner-position{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* header style start */
+.header{
+    background: url(../assets/header_background_image.png);
+    position: absolute;
+    width: 1290px;
+    height: 652px;
+    left: 0;
+    right: 0;
+    top: 120px;
+    bottom: 4462px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+
+    width: 998px;
+    height: 582px;
+    left: 221px;
+    right: 221px;
+    top: 157px;
+    bottom: 4506px;
+
+
+}
+.banner-title{
+    color: rgb(13, 19, 33);     
+
+    padding: 0px;
+    margin: 20px 5px;
+}
+.banner-description{
+    color: rgb(13, 19, 33);
+
+    padding: 0px;
+    margin: 20px 5px;
+}
+.contact{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(13, 19, 33);
+    padding: 20px 30px;
+    margin: 0px 5px;
+}
+/* header style end */
+
