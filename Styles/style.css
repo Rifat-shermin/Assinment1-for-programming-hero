@@ -72,6 +72,8 @@ body{
 
 
 /* main style start */
+
+/* ....."Why web development" style start......*/
 .development-featured{
     width: 90%;
     height: 1010px;
@@ -128,9 +130,12 @@ body{
     justify-items: flex-start;
     align-items: center;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 840px;
     height: 224px;
+
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
 }
 .info{
@@ -151,3 +156,57 @@ body{
     justify-items: end;
     align-items: center;
 }
+
+/* ....."Why web development" style end......*/
+
+
+/* ....."My Inspiration" style start......*/
+.inspiration{
+    
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 2px solid red;  */
+    margin-top: 90px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.inspiration-head{
+    width: 852px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 10px 0px 60px;
+}
+
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.inspiration-video{
+
+    width: 90%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+/* ....."My Inspiration" style end......*/
+
+
