@@ -32,6 +32,15 @@ body{
  
     
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 25px;
+}
+.button_design{
+    padding: 7px;
+}
+
 .banner{
     display: flex;
     flex-direction: column;
