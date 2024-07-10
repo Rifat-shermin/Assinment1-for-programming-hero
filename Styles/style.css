@@ -210,3 +210,98 @@ body{
 /* ....."My Inspiration" style end......*/
 
 
+/* ......."My current Target" style start........ */
+.target{
+
+width: 90%;
+height: 660px;
+margin: 0 auto;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+
+
+.target-head{
+    width: 852px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 10px 0px 60px;
+}
+.target-head-title{
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.target-head-description{
+    
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.target-field{
+    width: 90%;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+}
+.fields{
+    width: 300px;
+    height: 267px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+
+    border-radius: 12px;
+
+}
+.field-image{
+    /* position: relative; */
+    width: 45px;
+    height: 45px;
+}
+.field-title{
+
+}
+.field-info{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-learn-more{
+
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+#field1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+#field2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+#field3{
+    background-color: rgba(255, 223, 0, 0.05) ;
+}
+
+
+
+/* ......."My current Target" style end........ */
+
