@@ -305,3 +305,82 @@ padding: 0px;
 
 /* ......."My current Target" style end........ */
 
+
+.support{
+    background-image: url(../assets/handshake.jpg);
+
+position: absolute;
+width: 1190px;
+height: 313px;
+/* left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 180px; */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px; 
+
+border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),
+
+
+/*     
+    width: 1290px;
+    height: 525px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 10px; 
+    bottom: 4462px; */
+
+}
+.support-view{
+    width: 852px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+     margin: 50px 60px; */
+
+}
+
+.support-title{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.support-description{
+    
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color:rgb(255, 255, 255);
+
+}
+.btn-text{
+
+    width: 490px;
+    height: 52px;
+    padding: 19px 20px 19px 20px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+.btn-submit{
+    width: 120px;
+    height: 52px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-weight: 800;
+}
